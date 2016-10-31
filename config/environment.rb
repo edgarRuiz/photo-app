@@ -8,8 +8,8 @@ ActionMailer::Base.smtp_settings = {
   :address => 'smtp.sendgrid.net',
   :port => 587,
   :authentication => :plain,
-  :user_name => ENV['SENDGRID_USERNAME'],
-  :password => ENV['SENDGRID_PASSWORD'],
+  :user_name => 'ed.ruiz1106',
+  :password => 'password1',
   :domain => 'heroku.com',
   :enable_starttls_auto => true
 }
@@ -23,3 +23,6 @@ ActionMailer::Base.smtp_settings = {
 #   :authentication => :plain,
 #   :enable_starttls_auto => true
 # }
+
+# ed.ruiz1106
+# export SENDGRID_PASSWORD=password1
